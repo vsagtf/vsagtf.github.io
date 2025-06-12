@@ -7,28 +7,17 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f0f0f0;
+            /* Черно-белый градиентный фон */
+            background: linear-gradient(to bottom, black, white);
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            
-    font-family: Arial, sans-serif;
-    /* Черно-белый линейный градиент сверху вниз */
-    background: linear-gradient(to bottom, black, white);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
-
         }
         .container {
-            background: white;
+            background: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон для читаемости */
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -62,7 +51,4 @@
     <div class="container">
         <h1>Добро пожаловать на мой сайт!</h1>
         <p>Это простой пример одностраничного сайта на HTML и CSS.</p>
-        <button onclick="alert('Спасибо за нажатие!')">Нажми меня</button>
-    </div>
-</body>
-</html>
+        <button onclick="alert('Спасибо за нажатие!')">Нажми меня
